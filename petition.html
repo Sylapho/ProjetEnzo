@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Pétition</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="style/stylepetition.css">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link rel="icon" href="images/Logo_The_Reporter.png">
+		<link href="https://fonts.googleapis.com/css2?family=Fugaz+One&family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,700&display=swap" rel="stylesheet">
+    </head>
+<body>
+
+	<header>
+		<div>
+			<img src="IMAGES/Logo_The_Reporter.png" alt="Logo The Reporter" width="10%" class="logo">
+		</div>
+		<div>
+			<h1>E-SPORT ACTU'</h1>
+	   </div>
+	</header>
+	<nav>
+	  <ul>
+		<li><a href="index.html">Accueil</a></li>
+		<li class="deroulant"><a href="#">Articles</a>
+		  <ul class="sous">
+			<li><a href="article1.html">KC League of Legends LEC 2024</a></li>
+			<li><a href="article2.html">KC Rocket League RLCS 2024</a></li>
+			<li><a href="#">KC Valorant VCT 2024</a></li>
+		  </ul>
+		</li>
+		<li><a href="petition.html">Pétition</a></li>
+		<li><a href="quiz.html">Quizz</a></li>
+	  </ul>
+	</nav>
+	<form>
+    	<label for="prenom">Prénom :</label>
+    	<input type="text" id="prenom" name="prenom" required>
+
+    	<label for="nom">Nom :</label>
+    	<input type="text" id="nom" name="nom" required>
+
+    	<label for="age">Âge :</label>
+   	 <input type="number" id="age" name="age" required>
+
+    	<label for="dateNaissance">Date de Naissance :</label>
+   	<input type="date" id="dateNaissance" name="dateNaissance" required>
+
+   	<label for="genre">Genre :</label>
+    	<select id="genre" name="genre" required>
+        <option value="homme">Homme</option>
+        <option value="femme">Femme</option>
+        <option value="autre">Autre</option>
+    	</select>
+
+    	<label for="email">Email de contact :</label>
+    	<input type="email" id="email" name="email" required>
+
+	<label>Recevoir des informations sur l'évolution de la pétition :</label>
+    <label for="oui">Oui</label>
+    <input type="radio" id="oui" name="information" value="oui">
+    <label for="non">Non</label>
+    <input type="radio" id="non" name="information" value="non" checked>
+
+    	<label for="commentaire">Commentaire :</label>
+    	<textarea id="commentaire" name="commentaire"></textarea>
+
+    	<input type="submit" value="Dites 'non aux ligues fermées'">
+	</form>
+	<section>
+	<h2>Les ligues fermées menacent le sport !</h2>
+		<p>Dans leur quête d'argent les créateurs des différentes ligues sportives ou e-sportives se tournent tous petit à petit vers un système américain de ligues fermées, ceci pourrait se révéler catastrophique pour diverses raisons :</p>
+	<ul class="petition">
+		<li class="petition">Les clubs n'auront comme but final que de faire de l'argent</li>
+		<li class="petition">Cela pourrait entraîner une baisse de la compétitivité</li>
+		<li class="petition">Plus de suspens en fin de saison pour savoir qui va descendre ou montée dans la ligue</li>
+		<li class="petition">Toujours les mêmes équipes et aucune place pour du renouveau</li>
+		<li class="petition">Modèle économique purement capitaliste et libéral américain basé sur l'investissement créant d'immense inégalités entre les clubs</li>
+	</ul>
+	</section>
+<table>
+	<tr>
+		<td><img src="images/cartelol.png" alt="carte du monde avec les différentes ligues de League of Legends" width="100%" class="img1"></td>
+		<td><img src="images/superleague.png" alt="projet de superleague de football barré en rouge" width="95%" class="img2"></td>
+	</tr>
+</table>
+</body>
+</html>

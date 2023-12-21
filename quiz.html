@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Quiz</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style/stylequiz.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="icon" href="images/Logo_The_Reporter.png">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fugaz+One&family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <div>
+            <img src="IMAGES/Logo_The_Reporter.png" alt="Logo The Reporter" width="10%" class="logo">
+        </div>
+        <div>
+            <h1>E-SPORT ACTU'</h1>
+       </div>
+    </header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Accueil</a></li>
+        <li class="deroulant"><a href="#">Articles</a>
+          <ul class="sous">
+            <li><a href="article1.html">KC League of Legends LEC 2024</a></li>
+            <li><a href="article2.html">KC Rocket League RLCS 2024</a></li>
+            <li><a href="#">KC Valorant VCT 2024</a></li>
+          </ul>
+        </li>
+        <li><a href="petition.html">Pétition</a></li>
+        <li><a href="quiz.html">Quizz</a></li>
+      </ul>
+    </nav>
+
+    <h1>Quiz</h1>
+
+    <form action="resultat.php" method="post">
+
+        <h2>Question 1: Quelle est la capitale de la France?</h2>
+        <label>
+            <input type="radio" name="q1" value="paris"> Paris
+        </label>
+        <label>
+            <input type="radio" name="q1" value="londres"> Londres
+        </label>
+        <label>
+            <input type="radio" name="q1" value="berlin"> Berlin
+        </label>
+
+        <h2>Question 2: Quel est le langage de programmation utilisé dans ce quiz?</h2>
+        <label>
+            <input type="radio" name="q2" value="php"> PHP
+        </label>
+        <label>
+            <input type="radio" name="q2" value="java"> Java
+        </label>
+        <label>
+            <input type="radio" name="q2" value="python"> Python
+        </label>
+
+        <input type="submit" value="Soumettre">
+
+    </form>
+
+</body>
+</html>
