@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <title>Quiz</title>
     <meta charset="utf-8">
@@ -10,10 +10,10 @@
     <link href="https://fonts.googleapis.com/css2?family=Fugaz+One&family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,700&display=swap" rel="stylesheet">
 </head>
 <body>
-
+    
     <header>
         <div>
-            <img src="IMAGES/Logo_The_Reporter.png" alt="Logo The Reporter" width="10%" class="logo">
+            <img src="./images/Logo_The_Reporter.png" alt="Logo The Reporter" width="10%" class="logo">
         </div>
         <div>
             <h1>E-SPORT ACTU'</h1>
@@ -21,19 +21,19 @@
     </header>
     <nav>
       <ul>
-        <li><a href="index.html">Accueil</a></li>
+        <li><a href="./index.html">Accueil</a></li>
         <li class="deroulant"><a href="#">Articles</a>
           <ul class="sous">
-            <li><a href="article1.html">KC League of Legends LEC 2024</a></li>
-            <li><a href="article2.html">KC Rocket League RLCS 2024</a></li>
-            <li><a href="#">KC Valorant VCT 2024</a></li>
+            <li><a href="./article1.html">KC League of Legends LEC 2024</a></li>
+            <li><a href="./article2.html">KC Rocket League RLCS 2024</a></li>
+            <li><a href="./article3.html">KC Valorant VCT 2024</a></li>
           </ul>
         </li>
-        <li><a href="petition.html">Pétition</a></li>
-        <li><a href="quiz.html">Quizz</a></li>
+        <li><a href="./petition.html">Pétition</a></li>
+        <li><a href="./quiz.html">Quizz</a></li>
       </ul>
     </nav>
-
+    
     <h1>Quiz</h1>
 
     <form action="resultat.php" method="post">
@@ -95,7 +95,7 @@
             <input type="radio" name="q4" value="KarmineCorp"> Karmine Corp
         </label>
 
-        <h2>Question 5 : Quel joueur français connu pour son aim hors du commun, s'étant fait repéré sur CSGO, a fait sa transition sur Valorant en 2020 ?</h2>
+        <h2>Question 5 : Quel joueur français connu pour son aim hors du commun, s'étant fait repéré sur CSGO,<br> a fait sa transition sur Valorant en 2020 ?</h2>
         <label>
             <input type="radio" name="q5" value="KennyS"> KennyS
         </label>
@@ -123,7 +123,7 @@
             <input type="radio" name="q6" value="G2Esport"> G2 Esport
         </label>
 
-        <h2>Question 7 : Qui a remporté la première édition des VCT Game Changers, la compétition féminine de Valorant en 2023 ?</h2>
+        <h2>Question 7 : Qui a remporté la première édition des VCT Game Changers, <br>la compétition féminine de Valorant en 2023 ?</h2>
         <label>
             <input type="radio" name="q7" value="NaViCelestrials"> NAVI Celestials
         </label>
@@ -137,7 +137,7 @@
             <input type="radio" name="q7" value="AcendRising"> Acend Rising
         </label>
 
-        <h2>Question 8 : Quel joueur américain de Rocket League a donné son nom à une action dans le jeu (Un Reset)</h2>
+        <h2>Question 8 : Quel joueur américain de Rocket League a donné son nom <br>à une action dans le jeu (Un Reset) ?</h2>
         <label>
             <input type="radio" name="q8" value="Itachi"> Itachi
         </label>
@@ -150,25 +150,12 @@
         <label>
             <input type="radio" name="q8" value="Arsenal"> Arsenal
         </label>
-
-        <h2>Question 9 : Quelle équipe a réalisé le split parfait (18 victoires pour 0 défaite) lors du Summer Split 2015 des EU LCS (Ancien nom désignant le LEC)</h2>
-        <label>
-            <input type="radio" name="q9" value="GambitGaming"> Gambit Gaming
-        </label>
-        <label>
-            <input type="radio" name="q9" value="TeamROCCAT"> Team ROCCAT 
-        </label>
-        <label>
-            <input type="radio" name="q9" value="CopenhagenWolves"> Copenhagen Wolves 
-        </label>
-        <label>
-            <input type="radio" name="q9" value="Fnatic"> Fnatic
-        </label>
-
         <br>
-        <input type="submit" value="Soumettre">
-
-    </form>
-
+        <input type="submit" value="Envoyer">
+ 
+      </form>
+      
+      <!-- Pourles erreurs Error: Bad value 95% faut juste faire une class et le faire en css parce que théoriquement si tu veux tu peux changer 
+    la taille en inspectant le site (pas bien) Oui -->
 </body>
 </html>

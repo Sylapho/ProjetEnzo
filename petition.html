@@ -1,7 +1,8 @@
 <!DOCTYPE html>
-<html>
+<html lang="fr">
     <head>
         <title>Pétition</title>
+		
         <meta charset="utf-8">
         <link rel="stylesheet" type="text/css" href="style/stylepetition.css">
 		<link rel="preconnect" href="https://fonts.googleapis.com">
@@ -13,7 +14,7 @@
 
 	<header>
 		<div>
-			<img src="IMAGES/Logo_The_Reporter.png" alt="Logo The Reporter" width="10%" class="logo">
+			<img src="images/Logo_The_Reporter.png" alt="Logo The Reporter" width="10%" class="logo" title="Crédit : Ronaldo > Messi">
 		</div>
 		<div>
 			<h1>E-SPORT ACTU'</h1>
@@ -48,6 +49,7 @@
 
    	<label for="genre">Genre :</label>
     	<select id="genre" name="genre" required>
+		<option value="" disabled >Veuillez choisir votre genre </option> 
         <option value="homme">Homme</option>
         <option value="femme">Femme</option>
         <option value="autre">Autre</option>
@@ -61,7 +63,17 @@
     <input type="radio" id="oui" name="information" value="oui">
     <label for="non">Non</label>
     <input type="radio" id="non" name="information" value="non" checked>
-
+	
+	<label>Raisons de votre signature : </label>
+	<label for="riche">Argent pas bien</label>
+	<input type="checkbox" name="raisonSignature" value="riche" id="riche">
+	<label for="competitivite">On veut de la compétitivité</label>
+	<input type="checkbox" name="raisonSignature" value="competitivite" id="competitivite">
+	<label for="montee&descente">Montée & Descente</label>
+	<input type="checkbox" name="raisonSignature" value="monte&descente" id="montee&descente">
+	<label for="renouveau">Renouveau</label>
+	<input type="checkbox" name="raisonSignature" value="renouveau" id="renouveau">
+	
     	<label for="commentaire">Commentaire :</label>
     	<textarea id="commentaire" name="commentaire"></textarea>
 

@@ -88,3 +88,22 @@ h1{
 	font-family: 'Fugaz One', sans-serif;
 }
 
+.score, .messagePersonnalise{
+    text-align: center;
+    font-family: 'Fugaz One', sans-serif;
+}
+form {
+    text-align: center;
+}
+
+p{
+    font-family: 'Fugaz One', sans-serif;
+    text-align: center;
+}
+.vrai{
+    color: green;
+}
+
+.faux {
+    color: red;
+}
